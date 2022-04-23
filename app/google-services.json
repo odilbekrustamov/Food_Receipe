@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "15910535501",
+    "project_id": "food-receipe-51dcf",
+    "storage_bucket": "food-receipe-51dcf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15910535501:android:198ab170890c46e0e33704",
+        "android_client_info": {
+          "package_name": "com.example.foodreceipe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15910535501-g31qjnfo29a5jk9g9hjiq39gqm8fua56.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAYXlFYOn6QqeqEcULRix23pxoL9P2mH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "15910535501-g31qjnfo29a5jk9g9hjiq39gqm8fua56.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

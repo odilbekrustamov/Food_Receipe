@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top">
+
+            <ImageView
+                android:id="@+id/iv_qr_code"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:src="@mipmap/ic_qr_code"
+                android:padding="3dp"/>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_total"
+                    android:textColor="#7DC41B"
+                    android:textStyle="bold"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:text="@string/str_purchase_date"
+                    android:textColor="#EF138A"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:gravity="right|center"
+                android:orientation="vertical">
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal">
+
+                   <TextView
+                       android:id="@+id/tv_total"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="0"
+                       android:textColor="#7DC41B"
+                       android:textSize="18sp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="  so'm"
+                       android:textColor="#7DC41B"
+                       android:textSize="18sp"/>
+               </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_date"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="0 0 0000"
+                    android:textColor="#EF138A"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BBE415"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"/>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

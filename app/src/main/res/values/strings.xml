@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Food Receipe</string>
+    <string name="str_fullname">Fullname</string>
+    <string name="str_email">Email</string>
+    <string name="str_password">Password</string>
+    <string name="str_cpassword">Confirm Password</string>
+    <string name="str_signin">Sign In</string>
+    <string name="str_signup">Sign Up</string>
+    <string name="str_already_accoumt">Already have an account</string>
+    <string name="str_donot_account">Don\'t have an account</string>
+    <string name="str_home">Home</string>
+    <string name="str_favorite">Favorite</string>
+    <string name="str_shopping_list">Shopping List</string>
+    <string name="str_profile">Profile</string>
+    <string name="str_search_hint">Search Dishes/Ingradients</string>
+    <string name="str_breakfast">Breakfast</string>
+    <string name="str_main_course">Main Course</string>
+    <string name="str_dessert">Dessert</string>
+    <string name="str_salad">Salad</string>
+    <string name="str_chicken_biryani">Chicken Biryani</string>
+    <string name="str_food_title">Biryani - Hindiston yarimoroli musulmonlari orasida paydo bo\'lgan aralash guruchli taom. U hind ziravorlari, guruch, go\'sht yoki tuxum yoki kartoshka kabi sabzavotlardan tayyorlanadi.</string>
+    <string name="str_show_more">Show More</string>
+    <string name="str_retsept">600 gr tovuq go\'shti1 osh qoshiq garam masala kukuni1 choy qoshiq za\'faron1 osh qoshiq dafna yaprog\'i1 qora kardamon1 choy qoshiq zira urug\'i4 yashil qalampir1 osh qoshiq zanjabil pastasi1 choy qoshiq qizil qalampir kukuni1/2 osh qoshiq zanjabil2 tomchi kewra1 osh qoshiq gul suvi</string>
+    <string name="str_ingradients">Kerakli masalliqlar</string>
+    <string name="str_how_make">Chicken biryani qanday tayyorlanadi</string>
+    <string name="str_add">ADD</string>
+    <string name="str_1">1</string>
+    <string name="str_green_chillis">Green Chillis</string>
+    <string name="str_sub_total">Sub Total</string>
+    <string name="str_shipping_charges">Shipping Charges</string>
+    <string name="str_total">Total</string>
+    <string name="str_purchase_date">Xarid vaqti:</string>
+    <string name="str_enter_the_weight">Enter the weight</string>
+
+    <string name="str_signin_success">Signed in Successfully</string>
+    <string name="str_signin_failed">Signed in failed</string>
+    <string name="str_signup_success">Signed up successfully</string>
+    <string name="str_signup_failed">Signed up failed</string>
+    <string name="str_user_name">Vince Fleming</string>
+    <string name="str_user_email">swagger@gmail.com</string>
+    <string name="str_product_name">Mahsulot nomi</string>
+    <string name="str_freshely_dropped">Freshely Dropped</string>
+    <string name="str_umumiy_xarajat">Umumiy xarid narxi:</string>
+    <string name="str_sweet_appetite">Yoqimli ishtaha!!!</string>
+
+</resources>

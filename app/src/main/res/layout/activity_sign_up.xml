@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activty.SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="centerCrop"
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="285dp"
+                android:src="@drawable/iv_home_backgrount"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="317dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/iv_home_front"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="top|center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="29dp"
+                    android:layout_height="31dp"
+                    android:layout_marginTop="60dp"
+                    android:src="@drawable/iv_home_leaf"/>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/iv_home_title"/>
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="right"
+                    android:src="@drawable/iv_sign_cauliflower"/>
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:padding="15dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_fullname"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/view_rounded_line"
+                android:hint="@string/str_fullname"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="#27910B"
+                android:textColorHint="#27910B"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/view_rounded_line"
+                android:hint="@string/str_email"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="#27910B"
+                android:textColorHint="#27910B"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/view_rounded_line"
+                android:hint="@string/str_password"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="#27910B"
+                android:textColorHint="#27910B"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:id="@+id/et_cpassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/view_rounded_line"
+                android:hint="@string/str_cpassword"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="#27910B"
+                android:textColorHint="#27910B"
+                android:textSize="16sp"/>
+
+            <Button
+                android:id="@+id/b_signup"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/view_rounded_line"
+                android:text="@string/str_signup"
+                android:textAllCaps="false"
+                android:textColor="#27910B"
+                android:textSize="16sp"
+                app:backgroundTint="@null" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="right|center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_already_accoumt"
+                    android:textColor="#27910B"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_signin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingStart="10dp"
+                    android:text="@string/str_signin"
+                    android:textColor="#27910B"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

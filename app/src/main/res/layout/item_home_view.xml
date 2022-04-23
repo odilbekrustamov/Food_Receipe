@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_marginStart="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/iv_photo"
+                    android:layout_width="88dp"
+                    android:layout_height="67dp"
+                    android:src="@drawable/iv_breakfast" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_favorite_not"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="24dp"
+                    android:layout_height="22dp"
+                    android:src="@mipmap/ic_favorite_not"/>
+
+                <ImageView
+                    android:id="@+id/iv_favorite"
+                    android:visibility="gone"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="24dp"
+                    android:layout_height="22dp"
+                    android:src="@mipmap/ic_favorite"/>
+            </FrameLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="4dp"
+                android:orientation="vertical"
+                android:padding="4dp"
+                android:background="@drawable/view_rounded_green">
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_chicken_biryani"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:text="@string/str_food_title"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/tv_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_show_more"
+                    android:layout_gravity="right"
+                    android:textSize="14sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BBE415"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"/>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
