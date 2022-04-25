@@ -1,7 +1,7 @@
 # Food_Receipe
 Food Receipe
-![Screenshot_20220425_083110_com example foodreceipe](https://user-images.githubusercontent.com/96547643/165016485-90014adc-ed1e-4097-9717-b51624978add.jp
-![Screenshot_20220425_082930_com example foodreceipe](https://user-images.githubusercontent.com/96547643/165016600-34d89f0a-92ae-45e8-ab31-5d947c157266.jpg 
+![Screenshot_20220425_083110_com example foodreceipe](https://user-images.githubusercontent.com/96547643/165016485-90014adc-ed1e-4097-9717-b51624978add.jpg)
+![Screenshot_20220425_082930_com example foodreceipe](https://user-images.githubusercontent.com/96547643/165016600-34d89f0a-92ae-45e8-ab31-5d947c157266.jpg)
 ![Screenshot_20220425_082936_com example foodreceipe](https://user-images.githubusercontent.com/96547643/165016610-6076510b-66ee-40af-87f7-0504f22746f3.jpg) 
 ![Screenshot_20220425_083019_com example foodreceipe](https://user-images.githubusercontent.com/96547643/165016619-a5300521-2f82-4fbc-abdd-0b160320d607.jpg) 
 ![Screenshot_20220425_083025_com example foodreceipe](https://user-images.githubusercontent.com/96547643/165016626-bca70410-10b2-4cb5-81a1-7ab97b288074.jpg)
